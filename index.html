@@ -13,6 +13,30 @@
     </header>
 
     <main>
+                <h2>Registration Form </h2>
+
+        <form action="process.php" method="post">
+            <label for="Name"> Name:</label>
+            <input type="text" id="Name" name="name" required>
+
+            <label for="Emai">Email:</label>
+            <input type="email" id="mail" name="email" required>
+
+            <label for="Club">Select a Club:</label>
+            <select id="club" name="club">
+
+                <option value="run">Programming Club</option>
+                <option value="debate">Art Club</option>
+                <option value="Photography">Sports Club</option>
+
+            </select> <br><br>
+            <input type="submit" value="submit" name="submit">
+
+ 
+
+
+
+        </form>
         <!-- TODO: Create your form here in Step 1 -->
         <!-- Requirements for Step 1:
              - Form with POST method
